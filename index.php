@@ -22,6 +22,9 @@
       <content class="content">
          <? include 'modules/headline.php'; ?>
          <? include 'modules/programs.php'; ?>
+         <? include 'modules/values.php'; ?>
+         <? include 'modules/events.php'; ?>
+         <? include 'modules/classes.php'; ?>
       </content>
    </main>
    <? //include 'modules/layouts/footer.php';

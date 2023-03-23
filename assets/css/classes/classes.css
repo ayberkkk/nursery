@@ -1,0 +1,185 @@
+#classes {
+    padding: 100px 0 100px 0;
+}
+
+#classes .title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#classes .classes-content {
+    padding: 30px 0 30px 0;
+}
+
+#classes .my-slider {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#classes .my-slider .item {
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    position: relative;
+    margin-right: 10px;
+}
+
+#classes .my-slider img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#classes .slider-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#classes .slider-content .slider-title {
+    margin-top: 20px;
+    color: #007eff;
+}
+
+#classes .slider-content .slider-desc {
+    color: #696969;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+#classes .slider-content .border- {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e6e6e6;
+    transition: 0.4s;
+}
+
+#classes .slider-content .info-content {
+    display: table;
+    width: initial;
+    margin: auto;
+}
+
+#classes .slider-content .classes-ul {
+    display: flex;
+    text-align: center;
+}
+
+#classes .slider-content .classes-ul li {
+    justify-content: space-between;
+    padding: 10px;
+    color: #696969;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+#classes .slider-content .classes-ul li p {
+    color: #fea633;
+}
+
+#classes .slider-content .more {
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+    padding: 14px 0 7px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fea633;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    transition: 0.4s;
+}
+
+#classes .my-slider .item:hover .border- {
+    display: none;
+}
+
+#classes .my-slider .item:hover .slider-title {
+    color: #fea633;
+}
+
+#classes .my-slider .item:hover .more {
+    bottom: 0px;
+}
+
+.tns-controls {
+    display: none;
+}
+
+.tns-nav {
+    display: flex !important;
+    align-items: center;
+}
+
+.tns-nav>[aria-controls] {
+    display: table !important;
+    margin: auto;
+    width: initial;
+    margin: auto;
+    text-align: center;
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #ddd;
+    border: 0;
+
+}
+
+.tns-nav>.tns-nav-active {
+    background: #999;
+}
+
+button {
+    display: none;
+}
+
+.info-content-desc {
+    padding: 60px 0 60px 0;
+}
+
+.info-content-desc .title {
+    text-align: left !important;
+}
+
+.info-content-desc p {
+    opacity: 0.7;
+    margin-top: 40px;
+}
+
+#classes .info-content-desc a {
+    font-family: default !important;
+    background-color: #fea633;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: 0.4s;
+}
+
+#classes .info-content-desc a:hover {
+    border: 1px solid #fea633;
+    background-color: transparent;;
+    color: #fea633 !important;
+}
+
+@media screen and (max-width:992px) {
+    #classes .my-slider .item {
+        margin-right: 0px;
+        margin: 10px;
+    }
+}

@@ -23,6 +23,6 @@
 		</div>
 	</div>
 	<div class="wave">
-		<img class="img-fluid" src="./assets/img/headline/wave_bottom.png">
+		<img class="img-fluid" src="./assets/img/wave_bottom.png">
 	</div>
 </section>
