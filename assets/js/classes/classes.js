@@ -2,7 +2,7 @@ var slider = tns({
   container: ".my-slider",
   items:4,
   slideBy: "page",
-  autoplay: false,
+  autoplay: true,
   mouseDrag: true,
   responsive: {
     "350": {

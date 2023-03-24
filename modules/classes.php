@@ -153,7 +153,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="info-content-desc row">
                 <div class="col-12 col-lg-6">
                     <h2 class="title">
@@ -164,22 +163,38 @@
                     </p>
                     <p>
                         Slow-carb meh whatever, succulents dreamcatcher health goth bushwick schlitz woke. Cred 3 wolf moon tattooed four loko, hashtag tote bag pabst messenger bag single-origin coffee activated charcoal kale chips vape tousled crucifix kitsch. Stumptown jianbing shoreditch hexagon selvage etsy celiac poke everyday carry cold-pressed single-origin coffee mixtape mustache.
-
                     </p>
-
                     <a href="#">
                         Learn more <i class="icon icon-ok4"></i>
                     </a>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <ul>
-                        <li>test</li>
-                        <li>test</li>
-                    </ul>
-                    <ul class="">
-                        <li>test</li>
-                        <li>test</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li class="card-li">
+                                    <i class="icon icon-lu-gosterim"></i>
+                                    <p>Full Day Sessions</p>
+                                </li>
+                                <li class="card-li">
+                                    <i class="icon icon-lu-gosterim"></i>
+                                    <p>Onlice Access</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li class="card-li">
+                                    <i class="icon icon-lu-gosterim"></i>
+                                    <p>Varied Classes</p>
+                                </li>
+                                <li class="card-li">
+                                    <i class="icon icon-lu-gosterim"></i>
+                                    <p>Friendly Place</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

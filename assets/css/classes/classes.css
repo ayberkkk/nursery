@@ -115,29 +115,9 @@
 }
 
 .tns-nav {
-    display: flex !important;
-    align-items: center;
+    display: none;
 }
 
-.tns-nav>[aria-controls] {
-    display: table !important;
-    margin: auto;
-    width: initial;
-    margin: auto;
-    text-align: center;
-    width: 9px;
-    height: 9px;
-    padding: 0;
-    margin: 0 5px;
-    border-radius: 50%;
-    background: #ddd;
-    border: 0;
-
-}
-
-.tns-nav>.tns-nav-active {
-    background: #999;
-}
 
 button {
     display: none;
@@ -173,13 +153,65 @@ button {
 
 #classes .info-content-desc a:hover {
     border: 1px solid #fea633;
-    background-color: transparent;;
+    background-color: transparent;
+    ;
     color: #fea633 !important;
+}
+
+#classes ul {
+    display: table;
+    width: initial;
+    margin: auto;
+}
+
+#classes .card-li {
+    position: relative;
+    padding: 20px 30px 30px 20px;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 10px 30px rgba(51, 51, 51, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#classes .card-li .icon {
+    background-color: transparent;
+    display: flex !important;
+    margin: auto;
+    width: initial;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #007eff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #007eff;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+
+#classes .card-li p {
+    opacity: 1 !important;
+    font-size: 22px !important;
+    margin-top: 0px !important;
 }
 
 @media screen and (max-width:992px) {
     #classes .my-slider .item {
         margin-right: 0px;
         margin: 10px;
+    }
+
+    #classes .info-content-desc {
+        padding: 20px;
+        padding-right: 0px;
+    }
+
+    #classes .info-content-desc .title {
+        font-size: 35px;
+        white-space: nowrap;
     }
 }

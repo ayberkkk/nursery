@@ -1,0 +1,50 @@
+#news {
+    background: #fea633 url(../../img/headline/main_bg.png) !important;
+    background-position: 0 0 !important;
+    background-repeat: repeat !important;
+    color: #fff;
+
+}
+
+#news .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#news .title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#news .news-card {
+    position: relative;
+}
+
+#news .news-card .date {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #007eff;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    ;
+}
+
+#news .news-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#news .news-card .card-desc {
+    padding: 20px;
+}
+
+#news .news-card .card-desc .news-title {
+    font-size: 29px;
+}

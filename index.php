@@ -25,9 +25,11 @@
          <? include 'modules/values.php'; ?>
          <? include 'modules/events.php'; ?>
          <? include 'modules/classes.php'; ?>
+         <? include 'modules/news.php'; ?>
+         <? include 'modules/comments.php'; ?>
       </content>
    </main>
-   <? //include 'modules/layouts/footer.php';
+   <? include 'modules/layouts/footer.php';
    ?>
    <div id="closeToggle" style="display: none;"></div>
 </body>

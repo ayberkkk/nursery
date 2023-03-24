@@ -1,0 +1,32 @@
+#comments {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#comments .title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#comments .comment-card {
+    display: flex;
+    align-items: center;
+}
+#comments .comment-card img {
+    border-radius:50%;
+}
+
+#comments .text-content {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#comments .text-content .name {
+    font-size: 20px;
+}
+
+#comments .text-content .comment {
+    font-size: 16px;
+    opacity: 0.8;
+}

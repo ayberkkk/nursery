@@ -18,7 +18,7 @@
 										<li class="company-mobil">
 											<div class="row">
 												<div class="col mobile-logo-content">
-													<img class="img-fluid mobile-logo" src="./assets/img/logo.svg">
+													<img class="img-fluid mobile-logo" src="./assets/img/logo-dark.svg">
 												</div>
 											</div>
 										</li>
@@ -72,6 +72,30 @@
 											</a>
 										</li>
 									</ul>
+									<div class="contact-mobile">
+										<ul class="contact-ul-mobile">
+											<li class="list-item">
+												<i class="icon icon-marker"></i>
+												1644 Platte Street, Palo Alto, CA 90202, USA
+											</li>
+											<li class="list-item">
+												<i class="icon icon-phone"></i>
+												Call Free: +1 376-236-2336
+											</li>
+											<li class="list-item">
+												<i class="icon icon-fax"></i>
+												+1 998 71 150 30 30
+											</li>
+											<li class="list-item">
+												<i class="icon icon-mail"></i>
+												info@stylemixthemes.com
+											</li>
+											<li class="list-item">
+												<i class="icon icon-clock"></i>
+												Mon — Fri: 8.00 AM — 18.00s
+											</li>
+										</ul>
+									</div>
 								</nav>
 							</div>
 						</div>
